@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Watcher';
+  src: url('ttf/WATCHER PERSONAL USE.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  background-color: #ffffff; /* Azul celeste claro */
+  font-family: 'Watcher', sans-serif;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 200px; /* height fija para todas las imagenes */
+  object-fit: cover; 
+}
+
+h1, h2, .navbar-brand {
+  font-family: 'Watcher', sans-serif;
+  font-weight: bold;
+}
